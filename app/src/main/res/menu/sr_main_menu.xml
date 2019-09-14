@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="SR CIRCULARS "
+        android:id="@+id/sr_circular_item">
+    </item>
+    <item android:title="EXIT"
+        android:id="@+id/sr_exit_item">
+    </item>
+
+</menu>

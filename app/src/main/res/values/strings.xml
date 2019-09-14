@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Commercial Circulars</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="home">Home</string>
+    <string name="downloads">Downloads</string>
+    <string name="_2018_circulars">2018 Circulars</string>
+    <string name="_2017_circulars">2017 Circulars</string>
+    <string name="communicate">Communicate</string>
+    <string name="write_to_us">Write to us</string>
+    <string name="more">More</string>
+    <string name="share_this_app">Share this App</string>
+    <string name="about_app">About App</string>
+    <string name="exit">Exit</string>
+    <string name="circular_app_provides_you_the_easier_way_to_view_both_the_old_and_latest_circulars_of_commercial_department_in_indian_railway_this_app_was_designed_by_it_cell_in_ccm_pm_office_of_southern_railway">Circular App provides you the easier way to view both the old and latest circulars of Commercial Department in Indian Railway. This App was designed by IT-cell in CCM/PM office of Southern Railway.</string>
+    <string name="a_product_of_it_cell_ccm_pm_southern_railway">\'A product of \'IT-cell CCM/PM\', Southern Railway\'</string>
+    <string name="button_feedback">Send feedback</string>
+    <string name="title_send_feedback">Send feedback</string>
+
+    <string name="mail_feedback_email">ccmpm.it.srly@gmail.com</string>
+    <string name="mail_feedback_subject">Great App</string>
+    <string name="mail_feedback_message">Hi,
+\n\nYour Indian Railway Circular App is very useful..! Thanks.</string>
+    <string name="useful_forms">Useful Forms</string>
+
+
+
+
+</resources>

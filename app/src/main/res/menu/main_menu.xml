@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="SR CIRCULARS "
+        android:id="@+id/sr_circular_item">
+    </item>
+    <item android:title="EXIT"
+        android:id="@+id/exit_item">
+    </item>
+
+</menu>

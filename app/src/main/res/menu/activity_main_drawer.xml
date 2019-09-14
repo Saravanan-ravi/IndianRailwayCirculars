@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_fav_star_clicked"
+            android:title="Favorites" />
+
+        <item
+            android:id="@+id/nav_downloads"
+            android:icon="@drawable/ic_file_download_black_24dp"
+            android:title="@string/downloads" />
+        <item
+            android:id="@+id/nav_2018"
+            android:icon="@drawable/ic_insert_drive_file_black_24dp"
+            android:title="@string/_2018_circulars" />
+        <item
+            android:id="@+id/nav_2017"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="@string/_2017_circulars" />
+        <item
+            android:id="@+id/nav_otherforms"
+            android:icon="@drawable/ic_subject_black_24dp"
+            android:title="@string/useful_forms" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_write"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/write_to_us" />
+        </menu>
+    </item>
+
+    <item android:title="@string/more">
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share_this_app" />
+            <item
+                android:id="@+id/nav_about"
+                android:title="@string/about_app"
+                android:icon="@drawable/ic_info_black_24dp"/>
+
+            <item
+                android:id="@+id/exit_btn_nav"
+                android:title="@string/exit"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+        </menu>
+
+    </item>
+</menu>

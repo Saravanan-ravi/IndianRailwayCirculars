@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/actionBarSize"
+    app:title="Rail Dhandora"
+    app:titleTextColor="#fff"
+    android:background="#D35400"
+    android:id="@+id/main_toolbar"
+    tools:targetApi="lollipop"
+    tools:menu="@menu/years_menu">
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:isScrollContainer="true"
+    android:paddingBottom="10dp"
+    tools:context=".SouthernRlymenu">
+
+    <include
+        android:id="@+id/app_bar_for_sr"
+        layout="@layout/sr_layout_toolbar"/>
+
+    <!--    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="146dp"
+                android:layout_marginLeft="146dp"
+                android:layout_marginEnd="145dp"
+                android:layout_marginRight="145dp"
+                android:foregroundGravity="center"
+                android:src="@drawable/newraillogo" />
+        </RelativeLayout>-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="wrap_content"
+                android:layout_height="186dp"
+                android:layout_gravity="center"
+                android:background="@drawable/greybackground"
+                android:src="@drawable/organic" />
+
+
+
+    <Button
+        android:id="@+id/bt_srLettersToDivision"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_ripple"
+        android:padding="25dp"
+        android:text="INSTRUCTIONS To Division"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#56BD59" />
+
+    <Button
+        android:id="@+id/bt_srgeneral"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="25dp"
+        android:background="@drawable/button_ripple"
+        android:text="General"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        app:backgroundTint="#56BD59" />
+
+    <Button
+        android:id="@+id/bt_srcoaching"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#fff"
+        app:backgroundTint="#56BD59"
+        android:background="@drawable/button_ripple"
+        android:padding="25dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Coaching"
+        />
+
+    <Button
+        android:id="@+id/bt_srgoods"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="25dp"
+        android:text="Goods and Parcels"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/button_ripple"
+        android:textColor="#fff"
+        app:backgroundTint="#56BD59" />
+
+    <Button
+        android:id="@+id/bt_srawards"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:padding="25dp"
+        android:text="Awards"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/button_ripple"
+        android:textColor="#fff"
+        app:backgroundTint="#56BD59" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
